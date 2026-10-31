@@ -6,7 +6,7 @@ pipeline {
         IMAGE_TAG = 'latest'
         APP_PORT = '8080'
         EC2_HOST = '18.191.146.210'
-        PATH+DOCKER = "/usr/local/bin:${env.PATH}"
+        PATH = "/usr/local/bin:${env.PATH}"
     }
 
     stages {
